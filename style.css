@@ -1,0 +1,100 @@
+
+body{
+    background-color: #a5b2a6;
+}
+
+.contain {
+  margin: 0px !important;
+  display: grid;
+  
+}
+
+#header {
+  position: relative;
+  margin: 0px;
+  text-align: center;
+  background-color: darkslategrey;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 8px;
+  height: 40px;
+  font-size: larger;
+}
+
+img {
+  position: absolute !important;
+  height: 25px;
+  width: 25px;
+  top: 8px !important;
+  left: 10px;
+}
+
+#boxes {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#leftbox {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  position: relative;
+  background-color: dimgray;
+  border-radius: 25px;
+  height: 450px;
+  width: 275px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#search {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  position: absolute;
+
+  background-color: dimgray;
+  border-radius: 10px;
+  height: 35px;
+  width: 45%;
+  color: grey;
+  margin-left: 450px;
+  margin-top: 5rem;
+}
+
+#centerbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  margin-top: 10rem;
+  position: relative;
+}
+
+#bottombox {
+  position: absolute;
+  height: 150px;
+  background-color: dimgray;
+  border-radius: 10px;
+  width: 59%;
+  margin-top: 21rem;
+  margin-left: 23rem;
+}
+
+#box1 {
+  background-color: dimgray;
+  height: 125px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#box2 {
+  background-color: dimgray;
+  height: 125px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#box3 {
+  background-color: dimgray;
+  height: 125px;
+  width: 200px;
+  border-radius: 10px;
+}
